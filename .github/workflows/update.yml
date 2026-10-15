@@ -1,4 +1,3 @@
-
 name: Update Master DNS Blocklist
 
 on:
@@ -11,7 +10,7 @@ on:
       - "scripts/build.py"
       - ".github/workflows/update.yml"
   schedule:
-    - cron: "17 6 * * *"
+    - cron: "17 6 * * *"  # 02:17 Puerto Rico (AST)
 
 permissions:
   contents: write
@@ -23,7 +22,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 35
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -36,15 +35,66 @@ jobs:
       - name: Test domain parser
         run: python -m unittest discover -s scripts -p 'test_*.py'
 
-      - name: Build blocklist
+      - name: Restore previous release for retention protection
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view dns-master --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "Downloading previously published blocklist for size/retention check."
+            gh release download dns-master \
+              --pattern master-blocklist.txt \
+              --dir . \
+              --repo "$GITHUB_REPOSITORY"
+          else
+            echo "First publication; no previous release to compare."
+          fi
+
+      - name: Build merged DNS blocklist
         run: python scripts/build.py
 
-      - name: Commit generated list and report
+      - name: Validate generated output
+        run: |
+          test -s master-blocklist.txt
+          test -s build-report.json
+          bytes=$(stat -c %s master-blocklist.txt)
+          if [ "$bytes" -ge 2147483648 ]; then
+            echo "ERROR: File is >= 2 GiB; exceeds GitHub Release asset limit."
+            exit 1
+          fi
+          echo "Blocklist size: $bytes bytes"
+          python - <<'PY'
+          import json
+          with open('build-report.json', encoding='utf-8') as f:
+              report = json.load(f)
+          print('Unique domains:', f"{report['unique_domains']:,}")
+          print('Successful sources:', report['successful_sources'])
+          print('Failed sources:', report['failed_sources'])
+          PY
+
+      - name: Publish master list to GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view dns-master --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release upload dns-master master-blocklist.txt \
+              --clobber \
+              --repo "$GITHUB_REPOSITORY"
+          else
+            gh release create dns-master master-blocklist.txt \
+              --target main \
+              --title "Master DNS Blocklist" \
+              --notes "Auto-generated DNS domain list from sources.txt. Updated daily by GitHub Actions. See build-report.json for source status." \
+              --latest \
+              --repo "$GITHUB_REPOSITORY"
+          fi
+          echo "PUBLIC_URL=https://github.com/$GITHUB_REPOSITORY/releases/download/dns-master/master-blocklist.txt" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit small build report
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add master-blocklist.txt build-report.json
+          git add build-report.json
           if ! git diff --cached --quiet; then
-            git commit -m "Update consolidated DNS blocklist"
+            git commit -m "Update DNS blocklist build report"
             git push
           fi
