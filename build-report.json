@@ -1,0 +1,417 @@
+{
+  "built_at_utc": "2026-10-15T04:48:22+00:00",
+  "source_count": 68,
+  "successful_sources": 67,
+  "failed_sources": 1,
+  "unique_domains": 5788418,
+  "allowlisted_exact_domains": 0,
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
+      "status": "ok",
+      "domains": 73633,
+      "bytes": 2258637
+    },
+    {
+      "url": "https://blocklistproject.github.io/Lists/abuse.txt",
+      "status": "ok",
+      "domains": 435051,
+      "bytes": 12905916
+    },
+    {
+      "url": "https://blocklistproject.github.io/Lists/porn.txt",
+      "status": "ok",
+      "domains": 953197,
+      "bytes": 26095053
+    },
+    {
+      "url": "https://blocklistproject.github.io/Lists/ransomware.txt",
+      "status": "ok",
+      "domains": 1904,
+      "bytes": 66764
+    },
+    {
+      "url": "https://blocklistproject.github.io/Lists/redirect.txt",
+      "status": "ok",
+      "domains": 108682,
+      "bytes": 2628741
+    },
+    {
+      "url": "https://blocklistproject.github.io/Lists/scam.txt",
+      "status": "ok",
+      "domains": 8527,
+      "bytes": 223675
+    },
+    {
+      "url": "https://blocklistproject.github.io/Lists/tiktok.txt",
+      "status": "ok",
+      "domains": 3722,
+      "bytes": 126628
+    },
+    {
+      "url": "https://blocklistproject.github.io/Lists/torrent.txt",
+      "status": "ok",
+      "domains": 2620,
+      "bytes": 65780
+    },
+    {
+      "url": "https://blocklistproject.github.io/Lists/tracking.txt",
+      "status": "ok",
+      "domains": 143866,
+      "bytes": 4215541
+    },
+    {
+      "url": "https://blocklistproject.github.io/Lists/ads.txt",
+      "status": "ok",
+      "domains": 235867,
+      "bytes": 6862355
+    },
+    {
+      "url": "https://blocklistproject.github.io/Lists/crypto.txt",
+      "status": "ok",
+      "domains": 1274,
+      "bytes": 27787
+    },
+    {
+      "url": "https://blocklistproject.github.io/Lists/drugs.txt",
+      "status": "ok",
+      "domains": 26023,
+      "bytes": 699414
+    },
+    {
+      "url": "https://blocklistproject.github.io/Lists/fraud.txt",
+      "status": "ok",
+      "domains": 285116,
+      "bytes": 8590241
+    },
+    {
+      "url": "https://blocklistproject.github.io/Lists/gambling.txt",
+      "status": "ok",
+      "domains": 342623,
+      "bytes": 8368035
+    },
+    {
+      "url": "https://blocklistproject.github.io/Lists/malware.txt",
+      "status": "ok",
+      "domains": 2655752,
+      "bytes": 72161681
+    },
+    {
+      "url": "https://blocklistproject.github.io/Lists/phishing.txt",
+      "status": "ok",
+      "domains": 190191,
+      "bytes": 5686136
+    },
+    {
+      "url": "https://blocklistproject.github.io/Lists/piracy.txt",
+      "status": "ok",
+      "domains": 2154,
+      "bytes": 55890
+    },
+    {
+      "url": "https://phishing.army/download/phishing_army_blocklist_extended.txt",
+      "status": "ok",
+      "domains": 158803,
+      "bytes": 3475371
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hectorm/hmirror/master/data/adaway.org/list.txt",
+      "status": "ok",
+      "domains": 6540,
+      "bytes": 138385
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hectorm/hmirror/master/data/adguard-simplified/list.txt",
+      "status": "ok",
+      "domains": 183633,
+      "bytes": 3850486
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hectorm/hmirror/master/data/easylist/list.txt",
+      "status": "ok",
+      "domains": 48469,
+      "bytes": 934702
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hectorm/hmirror/master/data/easyprivacy/list.txt",
+      "status": "ok",
+      "domains": 43155,
+      "bytes": 944065
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hectorm/hmirror/master/data/kadhosts/list.txt",
+      "status": "ok",
+      "domains": 41104,
+      "bytes": 974597
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hectorm/hmirror/master/data/someonewhocares.org/list.txt",
+      "status": "ok",
+      "domains": 13085,
+      "bytes": 248265
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hectorm/hmirror/master/data/stevenblack/list.txt",
+      "status": "ok",
+      "domains": 2852,
+      "bytes": 67828
+    },
+    {
+      "url": "https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt",
+      "status": "ok",
+      "domains": 15239,
+      "bytes": 618476
+    },
+    {
+      "url": "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt",
+      "status": "ok",
+      "domains": 41104,
+      "bytes": 1305971
+    },
+    {
+      "url": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts",
+      "status": "ok",
+      "domains": 57,
+      "bytes": 1628
+    },
+    {
+      "url": "https://v.firebog.net/hosts/static/w3kbl.txt",
+      "status": "ok",
+      "domains": 351,
+      "bytes": 8440
+    },
+    {
+      "url": "https://raw.githubusercontent.com/matomo-org/referrer-spam-blacklist/master/spammers.txt",
+      "status": "ok",
+      "domains": 2352,
+      "bytes": 37727
+    },
+    {
+      "url": "https://someonewhocares.org/hosts/zero/hosts",
+      "status": "ok",
+      "domains": 13085,
+      "bytes": 367592
+    },
+    {
+      "url": "https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts",
+      "status": "ok",
+      "domains": 6419,
+      "bytes": 163921
+    },
+    {
+      "url": "https://winhelp2002.mvps.org/hosts.txt",
+      "status": "ok",
+      "domains": 8728,
+      "bytes": 334861
+    },
+    {
+      "url": "https://v.firebog.net/hosts/neohostsbasic.txt",
+      "status": "ok",
+      "domains": 2411,
+      "bytes": 44305
+    },
+    {
+      "url": "https://raw.githubusercontent.com/RooneyMcNibNug/pihole-stuff/master/SNAFU.txt",
+      "status": "ok",
+      "domains": 75292,
+      "bytes": 2076851
+    },
+    {
+      "url": "https://paulgb.github.io/BarbBlock/blacklists/hosts-file.txt",
+      "status": "ok",
+      "domains": 544,
+      "bytes": 14752
+    },
+    {
+      "url": "https://adaway.org/hosts.txt",
+      "status": "ok",
+      "domains": 6540,
+      "bytes": 243454
+    },
+    {
+      "url": "https://v.firebog.net/hosts/AdguardDNS.txt",
+      "status": "ok",
+      "domains": 183420,
+      "bytes": 3847011
+    },
+    {
+      "url": "https://v.firebog.net/hosts/Admiral.txt",
+      "status": "ok",
+      "domains": 1654,
+      "bytes": 28866
+    },
+    {
+      "url": "https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt",
+      "status": "ok",
+      "domains": 42343,
+      "bytes": 1354227
+    },
+    {
+      "url": "https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt",
+      "status": "ok",
+      "domains": 2700,
+      "bytes": 43604
+    },
+    {
+      "url": "https://v.firebog.net/hosts/Easylist.txt",
+      "status": "ok",
+      "domains": 48257,
+      "bytes": 931460
+    },
+    {
+      "url": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext",
+      "status": "ok",
+      "domains": 3549,
+      "bytes": 95001
+    },
+    {
+      "url": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts",
+      "status": "ok",
+      "domains": 9,
+      "bytes": 276
+    },
+    {
+      "url": "https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts",
+      "status": "ok",
+      "domains": 18491,
+      "bytes": 525902
+    },
+    {
+      "url": "https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts",
+      "status": "ok",
+      "domains": 1645,
+      "bytes": 49407
+    },
+    {
+      "url": "https://v.firebog.net/hosts/Easyprivacy.txt",
+      "status": "ok",
+      "domains": 43203,
+      "bytes": 945622
+    },
+    {
+      "url": "https://v.firebog.net/hosts/Prigent-Ads.txt",
+      "status": "ok",
+      "domains": 4269,
+      "bytes": 70554
+    },
+    {
+      "url": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts",
+      "status": "ok",
+      "domains": 2030,
+      "bytes": 68159
+    },
+    {
+      "url": "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt",
+      "status": "ok",
+      "domains": 347,
+      "bytes": 12383
+    },
+    {
+      "url": "https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt",
+      "status": "ok",
+      "domains": 14649,
+      "bytes": 475085
+    },
+    {
+      "url": "https://hostfiles.frogeye.fr/multiparty-trackers-hosts.txt",
+      "status": "ok",
+      "domains": 19197,
+      "bytes": 629272
+    },
+    {
+      "url": "https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt",
+      "status": "ok",
+      "domains": 428454,
+      "bytes": 14407741
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt",
+      "status": "ok",
+      "domains": 80,
+      "bytes": 2153
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt",
+      "status": "ok",
+      "domains": 497,
+      "bytes": 16594
+    },
+    {
+      "url": "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt",
+      "status": "ok",
+      "domains": 11768,
+      "bytes": 398188
+    },
+    {
+      "url": "https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt",
+      "status": "failed",
+      "error": "URLError: <urlopen error timed out>"
+    },
+    {
+      "url": "https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt",
+      "status": "ok",
+      "domains": 2735,
+      "bytes": 44155
+    },
+    {
+      "url": "https://v.firebog.net/hosts/Prigent-Crypto.txt",
+      "status": "ok",
+      "domains": 11490,
+      "bytes": 203972
+    },
+    {
+      "url": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts",
+      "status": "ok",
+      "domains": 2189,
+      "bytes": 58157
+    },
+    {
+      "url": "https://bitbucket.org/ethanr/dns-blacklists/raw/8575c9f96e5b4a1308f2f12394abd86d0927a4a0/bad_lists/Mandiant_APT1_Report_Appendix_D.txt",
+      "status": "ok",
+      "domains": 2046,
+      "bytes": 43844
+    },
+    {
+      "url": "https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt",
+      "status": "ok",
+      "domains": 125,
+      "bytes": 4762
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt",
+      "status": "ok",
+      "domains": 8140,
+      "bytes": 146593
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Te-k/stalkerware-indicators/master/generated/hosts",
+      "status": "ok",
+      "domains": 928,
+      "bytes": 19642
+    },
+    {
+      "url": "https://urlhaus.abuse.ch/downloads/hostfile/",
+      "status": "ok",
+      "domains": 415,
+      "bytes": 12388
+    },
+    {
+      "url": "https://v.firebog.net/hosts/Prigent-Malware.txt",
+      "status": "ok",
+      "domains": 240128,
+      "bytes": 4622558
+    },
+    {
+      "url": "https://www.github.developerdan.com/hosts/lists/tracking-aggressive-extended.txt",
+      "status": "ok",
+      "domains": 171738,
+      "bytes": 6205307
+    },
+    {
+      "url": "https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt",
+      "status": "ok",
+      "domains": 2232,
+      "bytes": 76576
+    }
+  ]
+}
