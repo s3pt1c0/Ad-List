@@ -1,1 +1,50 @@
-hjf
+
+name: Update Master DNS Blocklist
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "sources.txt"
+      - "allowlist.txt"
+      - "scripts/build.py"
+      - ".github/workflows/update.yml"
+  schedule:
+    - cron: "17 6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-master-dns-blocklist
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Test domain parser
+        run: python -m unittest discover -s scripts -p 'test_*.py'
+
+      - name: Build blocklist
+        run: python scripts/build.py
+
+      - name: Commit generated list and report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add master-blocklist.txt build-report.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update consolidated DNS blocklist"
+            git push
+          fi
