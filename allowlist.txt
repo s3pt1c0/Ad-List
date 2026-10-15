@@ -1,0 +1,3 @@
+# One domain per line to EXCLUDE it from the compiled master list.
+# Matches are exact only: example.com does not also exclude sub.example.com.
+# Add your exceptions here. Do not include http:// or https://.
