@@ -1,16 +1,16 @@
 {
-  "built_at_utc": "2026-10-18T11:20:04+00:00",
+  "built_at_utc": "2026-10-19T13:33:06+00:00",
   "source_count": 68,
   "successful_sources": 67,
   "failed_sources": 1,
-  "unique_domains": 5792623,
+  "unique_domains": 5790800,
   "allowlisted_exact_domains": 0,
   "sources": [
     {
       "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
       "status": "ok",
-      "domains": 73633,
-      "bytes": 2258637
+      "domains": 71492,
+      "bytes": 2189155
     },
     {
       "url": "https://blocklistproject.github.io/Lists/abuse.txt",
@@ -111,8 +111,8 @@
     {
       "url": "https://phishing.army/download/phishing_army_blocklist_extended.txt",
       "status": "ok",
-      "domains": 156786,
-      "bytes": 3421903
+      "domains": 156264,
+      "bytes": 3408626
     },
     {
       "url": "https://raw.githubusercontent.com/hectorm/hmirror/master/data/adaway.org/list.txt",
@@ -123,26 +123,26 @@
     {
       "url": "https://raw.githubusercontent.com/hectorm/hmirror/master/data/adguard-simplified/list.txt",
       "status": "ok",
-      "domains": 184974,
-      "bytes": 3877666
+      "domains": 185311,
+      "bytes": 3884379
     },
     {
       "url": "https://raw.githubusercontent.com/hectorm/hmirror/master/data/easylist/list.txt",
       "status": "ok",
-      "domains": 49493,
-      "bytes": 954922
+      "domains": 49809,
+      "bytes": 961285
     },
     {
       "url": "https://raw.githubusercontent.com/hectorm/hmirror/master/data/easyprivacy/list.txt",
       "status": "ok",
-      "domains": 43167,
-      "bytes": 944271
+      "domains": 43170,
+      "bytes": 944316
     },
     {
       "url": "https://raw.githubusercontent.com/hectorm/hmirror/master/data/kadhosts/list.txt",
       "status": "ok",
-      "domains": 38800,
-      "bytes": 917013
+      "domains": 38727,
+      "bytes": 913483
     },
     {
       "url": "https://raw.githubusercontent.com/hectorm/hmirror/master/data/someonewhocares.org/list.txt",
@@ -153,8 +153,8 @@
     {
       "url": "https://raw.githubusercontent.com/hectorm/hmirror/master/data/stevenblack/list.txt",
       "status": "ok",
-      "domains": 2852,
-      "bytes": 67828
+      "domains": 2853,
+      "bytes": 67848
     },
     {
       "url": "https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt",
@@ -165,8 +165,8 @@
     {
       "url": "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt",
       "status": "ok",
-      "domains": 38780,
-      "bytes": 1229763
+      "domains": 38727,
+      "bytes": 1225841
     },
     {
       "url": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts",
@@ -309,14 +309,14 @@
     {
       "url": "https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt",
       "status": "ok",
-      "domains": 14649,
-      "bytes": 475085
+      "domains": 14643,
+      "bytes": 474524
     },
     {
       "url": "https://hostfiles.frogeye.fr/multiparty-trackers-hosts.txt",
       "status": "ok",
-      "domains": 19197,
-      "bytes": 629272
+      "domains": 19190,
+      "bytes": 628584
     },
     {
       "url": "https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt",
@@ -392,8 +392,8 @@
     {
       "url": "https://urlhaus.abuse.ch/downloads/hostfile/",
       "status": "ok",
-      "domains": 427,
-      "bytes": 12654
+      "domains": 426,
+      "bytes": 12651
     },
     {
       "url": "https://v.firebog.net/hosts/Prigent-Malware.txt",
