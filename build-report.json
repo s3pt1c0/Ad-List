@@ -1,9 +1,9 @@
 {
-  "built_at_utc": "2026-10-20T11:49:45+00:00",
+  "built_at_utc": "2026-10-21T12:01:37+00:00",
   "source_count": 68,
   "successful_sources": 67,
   "failed_sources": 1,
-  "unique_domains": 5794354,
+  "unique_domains": 5797928,
   "allowlisted_exact_domains": 0,
   "sources": [
     {
@@ -111,8 +111,8 @@
     {
       "url": "https://phishing.army/download/phishing_army_blocklist_extended.txt",
       "status": "ok",
-      "domains": 155933,
-      "bytes": 3398041
+      "domains": 156045,
+      "bytes": 3392931
     },
     {
       "url": "https://raw.githubusercontent.com/hectorm/hmirror/master/data/adaway.org/list.txt",
@@ -123,26 +123,26 @@
     {
       "url": "https://raw.githubusercontent.com/hectorm/hmirror/master/data/adguard-simplified/list.txt",
       "status": "ok",
-      "domains": 187558,
-      "bytes": 3936750
+      "domains": 189082,
+      "bytes": 3968973
     },
     {
       "url": "https://raw.githubusercontent.com/hectorm/hmirror/master/data/easylist/list.txt",
       "status": "ok",
-      "domains": 50154,
-      "bytes": 968069
+      "domains": 50485,
+      "bytes": 974659
     },
     {
       "url": "https://raw.githubusercontent.com/hectorm/hmirror/master/data/easyprivacy/list.txt",
       "status": "ok",
-      "domains": 43179,
-      "bytes": 944458
+      "domains": 43189,
+      "bytes": 944633
     },
     {
       "url": "https://raw.githubusercontent.com/hectorm/hmirror/master/data/kadhosts/list.txt",
       "status": "ok",
-      "domains": 39279,
-      "bytes": 924201
+      "domains": 39901,
+      "bytes": 935251
     },
     {
       "url": "https://raw.githubusercontent.com/hectorm/hmirror/master/data/someonewhocares.org/list.txt",
@@ -165,8 +165,8 @@
     {
       "url": "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt",
       "status": "ok",
-      "domains": 39279,
-      "bytes": 1240975
+      "domains": 39901,
+      "bytes": 1257001
     },
     {
       "url": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts",
@@ -261,8 +261,8 @@
     {
       "url": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext",
       "status": "ok",
-      "domains": 3570,
-      "bytes": 95547
+      "domains": 3572,
+      "bytes": 95605
     },
     {
       "url": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts",
@@ -386,14 +386,14 @@
     {
       "url": "https://raw.githubusercontent.com/Te-k/stalkerware-indicators/master/generated/hosts",
       "status": "ok",
-      "domains": 928,
-      "bytes": 19642
+      "domains": 929,
+      "bytes": 19662
     },
     {
       "url": "https://urlhaus.abuse.ch/downloads/hostfile/",
       "status": "ok",
-      "domains": 425,
-      "bytes": 12599
+      "domains": 456,
+      "bytes": 13517
     },
     {
       "url": "https://v.firebog.net/hosts/Prigent-Malware.txt",
