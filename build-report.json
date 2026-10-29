@@ -1,16 +1,16 @@
 {
-  "built_at_utc": "2026-10-28T13:09:46+00:00",
+  "built_at_utc": "2026-10-29T13:16:26+00:00",
   "source_count": 68,
   "successful_sources": 66,
   "failed_sources": 2,
-  "unique_domains": 5808585,
+  "unique_domains": 5810213,
   "allowlisted_exact_domains": 0,
   "sources": [
     {
       "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
       "status": "ok",
-      "domains": 75951,
-      "bytes": 2321672
+      "domains": 76147,
+      "bytes": 2328280
     },
     {
       "url": "https://blocklistproject.github.io/Lists/abuse.txt",
@@ -111,8 +111,8 @@
     {
       "url": "https://phishing.army/download/phishing_army_blocklist_extended.txt",
       "status": "ok",
-      "domains": 152816,
-      "bytes": 3309702
+      "domains": 152827,
+      "bytes": 3312687
     },
     {
       "url": "https://raw.githubusercontent.com/hectorm/hmirror/master/data/adaway.org/list.txt",
@@ -123,26 +123,26 @@
     {
       "url": "https://raw.githubusercontent.com/hectorm/hmirror/master/data/adguard-simplified/list.txt",
       "status": "ok",
-      "domains": 183694,
-      "bytes": 3880231
+      "domains": 184039,
+      "bytes": 3886980
     },
     {
       "url": "https://raw.githubusercontent.com/hectorm/hmirror/master/data/easylist/list.txt",
       "status": "ok",
-      "domains": 41235,
-      "bytes": 790902
+      "domains": 41564,
+      "bytes": 797408
     },
     {
       "url": "https://raw.githubusercontent.com/hectorm/hmirror/master/data/easyprivacy/list.txt",
       "status": "ok",
-      "domains": 43222,
-      "bytes": 945175
+      "domains": 43229,
+      "bytes": 945278
     },
     {
       "url": "https://raw.githubusercontent.com/hectorm/hmirror/master/data/kadhosts/list.txt",
       "status": "ok",
-      "domains": 42611,
-      "bytes": 986034
+      "domains": 42614,
+      "bytes": 985335
     },
     {
       "url": "https://raw.githubusercontent.com/hectorm/hmirror/master/data/someonewhocares.org/list.txt",
@@ -153,8 +153,8 @@
     {
       "url": "https://raw.githubusercontent.com/hectorm/hmirror/master/data/stevenblack/list.txt",
       "status": "ok",
-      "domains": 2854,
-      "bytes": 67874
+      "domains": 2855,
+      "bytes": 67893
     },
     {
       "url": "https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt",
@@ -165,8 +165,8 @@
     {
       "url": "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt",
       "status": "ok",
-      "domains": 42611,
-      "bytes": 1329464
+      "domains": 43040,
+      "bytes": 1341167
     },
     {
       "url": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts",
