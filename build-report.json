@@ -1,9 +1,9 @@
 {
-  "built_at_utc": "2026-11-09T16:35:23+00:00",
+  "built_at_utc": "2026-11-10T15:01:30+00:00",
   "source_count": 68,
   "successful_sources": 66,
   "failed_sources": 2,
-  "unique_domains": 5819658,
+  "unique_domains": 5819840,
   "allowlisted_exact_domains": 0,
   "sources": [
     {
@@ -111,8 +111,8 @@
     {
       "url": "https://phishing.army/download/phishing_army_blocklist_extended.txt",
       "status": "ok",
-      "domains": 144115,
-      "bytes": 3104684
+      "domains": 143876,
+      "bytes": 3100181
     },
     {
       "url": "https://raw.githubusercontent.com/hectorm/hmirror/master/data/adaway.org/list.txt",
@@ -123,26 +123,26 @@
     {
       "url": "https://raw.githubusercontent.com/hectorm/hmirror/master/data/adguard-simplified/list.txt",
       "status": "ok",
-      "domains": 189979,
-      "bytes": 4012446
+      "domains": 187314,
+      "bytes": 3956595
     },
     {
       "url": "https://raw.githubusercontent.com/hectorm/hmirror/master/data/easylist/list.txt",
       "status": "ok",
-      "domains": 44968,
-      "bytes": 864692
+      "domains": 42271,
+      "bytes": 808295
     },
     {
       "url": "https://raw.githubusercontent.com/hectorm/hmirror/master/data/easyprivacy/list.txt",
       "status": "ok",
-      "domains": 43303,
-      "bytes": 946637
+      "domains": 43312,
+      "bytes": 946797
     },
     {
       "url": "https://raw.githubusercontent.com/hectorm/hmirror/master/data/kadhosts/list.txt",
       "status": "ok",
-      "domains": 43379,
-      "bytes": 989571
+      "domains": 43013,
+      "bytes": 984327
     },
     {
       "url": "https://raw.githubusercontent.com/hectorm/hmirror/master/data/someonewhocares.org/list.txt",
@@ -153,8 +153,8 @@
     {
       "url": "https://raw.githubusercontent.com/hectorm/hmirror/master/data/stevenblack/list.txt",
       "status": "ok",
-      "domains": 2892,
-      "bytes": 68634
+      "domains": 2893,
+      "bytes": 68689
     },
     {
       "url": "https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt",
@@ -165,8 +165,8 @@
     {
       "url": "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt",
       "status": "ok",
-      "domains": 43379,
-      "bytes": 1339144
+      "domains": 43257,
+      "bytes": 1340357
     },
     {
       "url": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts",
@@ -183,8 +183,8 @@
     {
       "url": "https://raw.githubusercontent.com/matomo-org/referrer-spam-blacklist/master/spammers.txt",
       "status": "ok",
-      "domains": 2352,
-      "bytes": 37727
+      "domains": 2355,
+      "bytes": 37764
     },
     {
       "url": "https://someonewhocares.org/hosts/zero/hosts",
@@ -213,8 +213,8 @@
     {
       "url": "https://raw.githubusercontent.com/RooneyMcNibNug/pihole-stuff/master/SNAFU.txt",
       "status": "ok",
-      "domains": 75761,
-      "bytes": 2090235
+      "domains": 75764,
+      "bytes": 2090346
     },
     {
       "url": "https://paulgb.github.io/BarbBlock/blacklists/hosts-file.txt",
